@@ -68,6 +68,12 @@ Direct behavioral measurement is crucial to understanding how individuals detect
 
 Understanding reading patterns and subsequent cognition is vital for news designers to make efficient and informed choices of how to select story forms, such as text, maps, charts and other imagery, to convey information as effectively as possible. Informed design choices can lower the cognitive load required to detect, parse and prioritize available visual information, which in turn allows more cognitive resources to be available for in-depth processing, learning and storage.
 
+News designers need guidelines to help them utilize story forms to optimally achieve goals. For example, eye-movement patterns can show which visual structures garner attention, which are ignored and which are looked at first. This study compares 200 participants reading news across three, prototype print newspapers and three, prototype news websites.
+
+News prototypes utilizing story forms designed for specific types of information, such as a map to convey geographic information, yielded better learning as measured by a post-exposure, information-recognition questionnaire. There were some inherent behavioral differences between print and online news prototypes, but these effects were overshadowed by story-form choices. Regardless of print, web or other emerging news platforms, a better understanding of how people read and learn from the news will allow news designers to maximize results and minimize efforts.
+
+---
+
 
 
 
