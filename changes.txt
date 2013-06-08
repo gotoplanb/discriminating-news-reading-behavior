@@ -10,5 +10,9 @@ p.24. Readers utilize cognitive mechanisms to prioritize which regions to fixate
 
 p.35. Within a news-reading context, intrinsic motivations include reading news to understand the world at large or a specific topic related to the individual.
 
+p.56. Intercoder agreement benefits because the coders must only associate ...
 
+p.56. An event begins when the eye is fixated ...
+
+p.65. A Markov chain is a specific stochastic process with a lag of 1, or there are no unknown time points between the two points of interest (Wie, 2006).
 
