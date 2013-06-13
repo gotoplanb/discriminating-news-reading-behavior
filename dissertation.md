@@ -299,8 +299,8 @@ A common criticism of experimental methodologies is subject awareness of an arti
 
 Two identical Mobile Eye eye-tracking systems from Applied Science Laboratories (ASL, 2007) were used for all data collection. This particular unit is "tetherless," meaning the research participant has full control over head positioning, tilt and rotation. The Mobile Eye is one of the most unobtrusive units available, hopefully resulting in a reading experience as similar to true life as can be obtained in an experimentally controlled environment. The unit, as shown in Figure 3-1, consists of a pair of clear-lens safety glasses with two small cameras mounted above the right eye. One camera records the scene, which in this study is one of the three print or one of the three online prototypes. A second camera calculates area of gaze by monitoring the angle of reflection of infrared light off of the cornea of the eye. The two video feeds are interleaved, meaning video frames are written to a digital video (DV) tape in an alternating fashion of scene, eye, scene, eye, and so on. After data collection is complete, the interleaved video is transferred to a PC where software separates the two video feeds, analyzes the location of eye gaze and outputs a digital video file of the scene camera with a cursor overlay to indicate the frame-by-frame location of the participant's gaze.
 
-![A](img/fig3-1a.jpg) A
-![B](img/fig3-1b.jpg) B
+![Figure 3-1 A](img/fig3-1a.jpg) A
+![Figure 3-1 B](img/fig3-1b.jpg) B
 
 > Figure 3-1.
 > > A) shows a model wearing a Mobile Eye unit from Applied Sciences Laboratories,
@@ -354,11 +354,11 @@ The two central theories to the present study are Feature Integration Theory and
 
 The concept of a stochastic process is tightly coupled with statistical dependence of observations:
 
-> A stochastic process is a family of time indexed random variables Z(ω, t), where ω belongs to a sample space and *t* belongs to an index set. For a fixed *t*, Z(ω, t) is a random variable. For a given ω, Z(ω, t), as a function of *t*, is called a sample function or realization. The population that consists of all possible realizations is called the ensemble in stochastic processes and time series analysis. (Wie, 2006, p.6)
+> A stochastic process is a family of time indexed random variables Z(ω, t), where ω belongs to a sample space and *t* belongs to an index set. For a fixed *t*, Z(ω, t) is a random variable. For a given ω, Z(ω, t), as a function of *t*, is called a sample function or realization. The population that consists of all possible realizations is called the ensemble in stochastic processes and time series analysis. (Wei, 2006, p.6)
 
 Simply, the value measured on a response variable is just one of a population of possible responses by that individual on that variable. A standard Likert item is a self-reported measure by an individual ranging from "strongly disagree" to "strongly agree" with some number of intervals between (Babbie, 2004). Imagine that the individual could answer that questionnaire at many times, essentially an infinite number of time points. The true value of that response might be somewhere between "agree" and "strongly agree". But the individual could answer to either of those available choices depending on time of day, question ordering or physiological factors such as tiredness or dehydration. The individual may truly be between two available responses, and small variations yield one of many possible responses. Whether this minutia of variation has an influence on the fit of a statistical model is as much an epistemological debate as a mathematical one. Some analysis procedures do not allow for allocation of this random error to the function, but allocating error within an indicator variable can provide a more informative model of a complex system. For the current study, the scanning and searching techniques of readers are dependent on previous exposure and stochastic because scanpaths can have random variations.
 
-The particular stochastic process utilized here is a Markov process, or more formally a first-order autoregressive process (Wie, 2006). Essentially, information from an observation can help predict the probability of a particular value for a subsequent observation. This process is invertible and stationary. The invertible characteristic allows for the sequence of elements to occur either A then B or B then A. The participant can look at a headline and then a photo just as easily as looking at the photo followed by headline. This is congruent with the Feature Integration Theory proposition that exposure to a visual stimulus creates a mental map of the stimulus that can be applied as a shortcut to a complete visual scan when the individual encounters a new visual stimulus. The mental stitching of the individual snapshots of the stimulus happens very quickly. Once the cognitive map is created, behavior during further exposure is used to consume or process the content instead of to scan and detect the types of content.
+The particular stochastic process utilized here is a Markov process, or more formally a first-order autoregressive process (Wei, 2006). Essentially, information from an observation can help predict the probability of a particular value for a subsequent observation. This process is invertible and stationary. The invertible characteristic allows for the sequence of elements to occur either A then B or B then A. The participant can look at a headline and then a photo just as easily as looking at the photo followed by headline. This is congruent with the Feature Integration Theory proposition that exposure to a visual stimulus creates a mental map of the stimulus that can be applied as a shortcut to a complete visual scan when the individual encounters a new visual stimulus. The mental stitching of the individual snapshots of the stimulus happens very quickly. Once the cognitive map is created, behavior during further exposure is used to consume or process the content instead of to scan and detect the types of content.
 
 The stationary characteristic means that the probability of looking at A then B will be the same regardless to the duration of exposure. During initial exposure to the visual stimulus, the individual may look at many elements in rapid succession, but the sequencing of element types will be the same whether A then B occurs early or late during exposure. Scanpath Theory provides a theoretical framework and Sequential Data Analysis provides an analysis toolset to describe associations between different elements in a visual stimulus, such as a newspaper prototype, Web site or another medium combining text and graphical elements.
 
@@ -388,7 +388,7 @@ SDIS data were recorded using a plain text editor and imported into the GSEQ sof
 
 The GSEQ package includes procedures for reliability, descriptive and inferential statistics. Compiled SDIS files from the primary code and reliability coder were compared for agreement using Kappa. While there is no option within the software to use a different reliability statistic, Kappa is appropriate for nominal data and to correct for chance agreement. The GSEQ "Simple" command generated descriptive statistics for codes including frequency, duration and many ratio combinations such as average, minimum and maximum duration of fixation events.
 
-The GSEQ "Stats" command calculated contingency-table statistics based on a specified lag. For time series analysis, a lag indicates the number of time points that come between the two points of interest. A Markov chain is a specific stochastic process with a lag of 1, or there are no unknown time points between the two points of interest (Wie, 2006). A lag 1 stochastic model was specified because Feature Integration Theory (Treisman &amp; Gelade, 1980) states the location of current visual interest affects the probability of which area the visual field will be fixated upon next.
+The GSEQ "Stats" command calculated contingency-table statistics based on a specified lag. For time series analysis, a lag indicates the number of time points that come between the two points of interest. A Markov chain is a specific stochastic process with a lag of 1, or there are no unknown time points between the two points of interest (Wei, 2006). A lag 1 stochastic model was specified because Feature Integration Theory (Treisman &amp; Gelade, 1980) states the location of current visual interest affects the probability of which area the visual field will be fixated upon next.
 
 GSEQ output included observed and expected joint frequencies, raw and adjusted residuals, and also transitional probabilities. Pearson Chi-square and Likelihood-ratio G<sup>2</sup> provided tests for expected versus observed frequencies of event sequences. Transitional probabilities were used to look at two particular events and determine how often that sequence appears compared to expected values. For example, one cell provided the frequency a headline event was directly followed by a photo event. The transitional probability provides an indication of how often this sequence is expected compared to all possible second events. Z-scores indicated significant difference of observed from expected frequencies for the two-event sequence pair specified in the models. The current study had no structural zeros with the contingency tables.
 
@@ -399,4 +399,491 @@ A major limitation of the GSEQ software is the restriction of analyses to two-wa
 Eye tracking has been used to better understand the theoretical and behavioral constructs of reading, scene perception and visual search. However, few studies have applied eye tracking to understand how people process news content. Also, content analysis methodologies used for mass communication research do not account for sequential data and the importance of previous exposure on understanding future exposure to visual structures and messages. As the number of media increase and types of media diversify, content analysis must change in order to more realistically model how people interact with and respond to visual structures whether presented through print newspapers, television, mobile devices, or through platforms and devices created in the future.
 
 This study used the data of 155 people tracked during free reading of news prototypes in print and online. The content-analysis strategy leveraged the temporal and sequential nature of the experimental design in an effort to more realistically model how individuals process visual structures of news design across media. Hopefully the results of this study will help news designers leverage available visual and story-form structures to maximize information recognition and minimize the costs of production. Also, the content-analysis strategy should be extended to other mass communication research interested in exposure to content regardless of text, audio, video or combinations of information forms.
+
+---
+
+# Chapter 4
+# Results
+
+Some components of the experimental design were outside the control of the researcher. The Poynter Institute recruited participants, created the prototypes and conducted the eye-tracking sessions. Therefore attention will first be paid to matters of validity. A proper analysis of coder agreement is necessary to allow other researchers to replicate and expand the results. After assessing validity and reliability, results will be reported for each research hypothesis. Finally, the exploratory research questions will be investigated.
+
+## Validity
+
+### Participant demographics
+
+The St. Petersburg Times recruited participants through advertisements in the print and online versions of the newspaper. The participants were recruited with no intention of drawing a probabilistic random sample from the geographic reach of the print newspaper but rather to be representative of frequent readers either of print or online versions of the St. Petersburg Times. See Appendix A for the selection questionnaire.
+
+Participants were assigned to an experimental condition in a rotating order of prototype one, two, three, one, two, three, etc. This assignment strategy was used to ensure equal counts between the different conditions. Print prototypes were administered during one week, and online prototypes were administered another week. Since participants were not randomly assigned to treatments, there was a concern that the demographics could differ across treatments. Simply, statistical estimates of a single variable will not be consistent between treatments if there is no homogeneity across subject pools. There is no sampling design that can be applied to provide estimated sampling error. However, demographic comparisons across treatments can defend against an argument of differing subject pools.
+
+Descriptive statistics were generated for participant demographics. Comparing across the experimental treatments of media and stimulus type, no practically significant differences were found regarding participant age and sex. Although mean values for categories do not make much sense in terms of describing the participants, the visual representation is adequate to detect a problem for participant recruitment:
+
+![Figure 4-1](img/fig4-1.jpg)
+
+> Figure 4-1.
+> > Participant demographics of the six prototypes are compared to an overall average including values from all prototypes. Values of 1.5 for "sex" and 3 for "age category" would indicate perfectly symmetrical assignment for each demographic category of interest. Similar values across prototypes indicate similar samples of participants were exposed to each prototype.
+
+Participant ages were coded in five ordinal categories, and sex was coded as two nominal variables. Similar frequencies in each category yield a median value of 3 for the age category and a 50 percent split for females and males. The proportions hold steady across prototypes. Therefore, participants assigned to each of the six prototype versions appear to be of similar compositions of sex and age.
+
+![Table 4.1](img/tab4-1.jpg)
+
+> Table 4.1.
+> > Shows the number of participants for each prototype version and media.
+
+This is a defense that the various experimental treatments were administered to demographically equivalent participants. However, it must be noted that the lack of a probabilistic sampling design makes external generalizations beyond this study tenuous at best and not statistically defensible.
+
+### Stimulus manipulation check
+
+Another threat to validity is the nature of the prototypes. Professional newspaper designers and staff at The Poynter Institute designed the prototypes to include the same information in visually different structures. The prototypes are visually different and these visual differences will affect reading behavior. Therefore, a manipulation check is necessary to validate this argument that the prototypes truly are perceived as different.
+
+Students in an undergraduate communications course were used for the manipulation check. An overhead projector was used to show the students each prototype for approximately 10 seconds. Students were asked how strongly they agreed that they could detect visual differences between the prototypes. Responses were recorded on a nine-point Likert item ranging from strongly disagree to strongly agree. The mean score of 7.52 (N = 23, s.d. = 1.19) corresponds to a strong ability to detect visual differences. The confidence interval estimates the low value to be 5.13 (α = .95) and still indicating a perceived ability to detect visual differences between the prototypes. Perceived differences in the visual field provide a simple check that vision and cognition processes would differ between the prototypes.
+
+### Participant awareness
+
+A potential weakness of experimental studies is it can be difficult to generalize to situations beyond the design. In this study, participants could not read the newspaper or read news online in their natural setting. Instead, the environment is controlled to maximize internal validity that measured differences are a result of the stimulus conditions and not confounded by variables and individual differences. During the exit interview, participants responded as to the level of intrusion of the eye-tracking hardware and if the experimental conditions had affected their normal reading behavior. Only 2% of participants responded that the apparatus distracted them or caused them to read differently than usual. Readers assigned to different prototypes showed no difference in responding to the level of apparatus intrusion (χ<sup>2</sup> = 17.02, df = 15, p-value = .318; G<sup>2</sup> = 17.99, df = 15, p-value = .263).
+
+## Reliability
+
+The option of using software to automatically code based on eye-fixation coordinates was previously discussed as inappropriate when the content at any x,y coordinate pair can change over time or through the behavior of the participant. Instead, the coding protocol used for this study relied on human coding of types of content. The GSEQ software computes a Kappa measure of intercoder agreement for sequential observations. Overall Kappa was 0.89 indicating a very high level of agreement between coders.
+
+## Recoding unique elements into typologies
+
+Although every visually distinct element was assigned a unique code for the content analysis, recoding into typologies was necessary for most of the analyses necessary to answer the hypotheses and research questions. Without recoding, the smallest possible contingency table would be larger than 60 by 60. This would be the approximate size for the first print prototype. A table of this size would require close to 20,000 observations if all observations were evenly distributed among cells. Instead, unique codes were recoded into typologies such as headlines, photographs, article text and alternative story forms (such as maps). Some findings might raise a question regarding the relationships between a few unique visual elements. These relationships can later be explored if necessary.
+
+## Hypotheses
+
+GSEQ was used to calculate descriptive statistics such as code frequencies and durations. The GSEQ software also was used to generate sequential statistics. Next, each individual sequence was partitioned into 30-second intervals. The number of fixated elements was counted within each of the resulting 10 intervals.
+
+> **H1: Visual elements, or structural types of news content, on a stimulus will not have equal probabilities of being fixated upon by a reader.**
+
+The content analysis is based on location of eye gaze, so there can only be one location of gaze for a particular time point. The simple probability for a visual element to be fixated upon is a ratio of how many fixations were on a specific visual element out of all fixations. Bakeman and Gottman (1997) refer to this as a "simple probability" because it is independent of time or previous fixations. GSEQ counted all fixations in tenth-of-a-second intervals and aggregated fixations for each type of visual element.
+
+![Figure 4.2 A](img/fig4-2a.jpg)
+![Figure 4.2 B](img/fig4-2b.jpg)
+
+> Figure 4.2.
+> > Aggregated fixations for (a) print and (b) online both indicate that visual elements do not have equal probabilities of being fixated upon regardless of the medium.
+
+Although GSEQ aggregates events and times for eye movements, there are no reports of variance between individuals. A formal ANOVA procedure to simultaneously compare all of the different types visual elements would be preferred. However, some prototype versions did not have alternative story forms (ASFs) or advertisements. Because the types and number of visual elements changes between prototypes versions, we cannot assume common variances for each code type. Therefore a crosstabs procedure was run in SPSS. A Pearson chi-square test (χ<sup>2</sup> = 3593 , df = 35 , p < 0.001) found observed cell counts were not equivalent to expected values under the null hypothesis that fixation frequencies are independent of the type of visual element. A likelihood-ratio chi-square yielded the same result (G<sup>2</sup> = 4041 , df = 35 , p < 0.001). These two tests provide strong evidence to reject the null hypothesis of fixation probabilities independent of the type of visual element. H1 is confirmed; different visual elements do not have equal probabilities of being fixated upon.
+
+> **H2: Readers given prototype news pages that utilize smaller, discrete storytelling elements will perform better information recognition.**
+
+The first prototype for both print and online was designed to be mostly of a traditional style utilizing primarily text. The second prototype combined traditional narrative text as well as some alternative story forms such as fact boxes and maps. The third prototype for each medium contained no traditional narrative text. Alternative story forms are used in a context-dependent manner, meaning that the form is chosen to most efficiently display a specific type of information. A simple example is that geographically based information would be displayed in a map story form instead of using traditional narrative text to describe the geographic information.
+
+For this study, the hypothesis anticipates that using story structures that are most visually indicative of content type will allow the participant to more efficiently process different types of information based on previous experiences with visual stimuli. It seems obvious that a visual element of a map should contain information related to geography. Instead of having to parse information from text and simultaneously process many types of information, visual elements with a narrow category of information will be more efficient to cognitively process. This cognitive efficiency should yield better information recognition.
+
+After participants finished the eye-tracking session, a facilitator administered an exit interview complete with a nine-item quiz of information contained within each prototype. Each question had three multiple-choice answers. Also, each prototype contained the specific information necessary to answer each question. Because the questions had the correct answer available among the multiple choices, this cognitive task is measuring information recognition alone and not information recall, which would require open-ended questions.
+
+A two-way ANOVA was run to compare the average quiz scores between different prototype versions and between media. The model was first run to include age and sex. Both were insignificant predictors and dropped from the model.
+
+![Table 4.3](img/tab4-3.jpg)
+
+> Table 4.3.
+> > The results of the SPSS univariate General Linear Model procedure. The resulting two-way ANOVA shows a significant main effect of prototype and no main effect of media.
+
+The final model had significant main effect for prototype (F = 7.39 , df = 2, p = 0.001) and no main effect of media. The two-way interaction also was not significant. The more complex model with sex and age had an Adjusted R Squared of 0.089, so the reduced model provides equivalent explanation of error (Adjusted R Squared = 0.088) with two fewer predictors.
+
+Individuals exposed to the prototypes containing alternative story forms had significantly better quiz scores than those exposed to the first prototype containing all traditional narrative text. Overall, the third prototype had the highest quiz average (u = 0.552 , s.e. = 0.025) followed by the second prototype (u = 0.506 , s.e. = 0.025). These two prototypes yielded significantly higher scores than the first prototype (u = 0.432 , s.e. = 0.021). H2 is confirmed that prototypes utilizing smaller, discrete visual elements resulted in better information recognition. The lack of significant difference between the second and third prototypes is not unexpected. Both utilized maps and other non-narrative story forms to convey specific types of information. Including some ASFs was hypothesized to increase information recognition. In this respect, the two prototypes with ASFs should be significantly different from the all-narrative text prototype but not necessarily much different between the two with ASFs. Implications will be discussed in the next chapter. Also, the total explanation of error is less than stellar (R Squared = 0.118 , Adjusted R Squared = 0.088). Some explanatory analysis will see if other demographic factors and individual media usage can help explain more error.
+
+> **H3: (a) The frequency of elements fixated by a person will be greatest during initial exposure, and (b) the frequency of fixated elements will decrease as exposure time increases.**
+
+The frequencies of fixated elements were defined as the repeated measures in an SPSS as a General Linear Model. The medium (print, online), prototype version (1. traditional narrative text, 2. traditional text plus some alternative story forms, 3. no traditional narrative text) and sex (male, female) were added as between-subject factors. Participant age was incorporated as a covariate. After building the initial model, sex did not have a significant main effect (F = .617 , df = 1 , p = .433) and was not part of a significant interaction. Nothing in the literature suggested sex is a significant factor in news reading, but it seemed prudent to check. However, sex was not a significant predictor for fixation patterns and was dropped from the model. Age approached significance as a covariate (F = 2.646 , df = 1 , p = 1.06), so it was kept in the model. The final model contained medium (F = 100.697 , df = 1 , p = <.001 ) and prototype (F = 7.361 , df = 2 , p = 0.001) as between-subject factors, age (F = 2.474 , df = 1 , p = .118) as a covariate and repeated measures for fixation frequencies at 30-second intervals for a total of 10 repeated measures of the one dependent variable. Fixation frequencies approximated normal distribution during the first interval then approximated Poisson distribution during the subsequent intervals.
+
+Multivariate tests found significance for the repeated measure (Wilks' Lambda = .614 , df = 9.79 , p < 0.001) of fixation frequencies. There were no significant two-way interactions. Mauchly's Test of Sphericity was significant (Mauchly's W = 0.409 , χ<sup>2</sup> = 129.49 , df = 44 , p < 0.001), so Greenhouse-Geisser corrections were used to re-estimate effect sizes. The repeated measures for fixation frequencies remained significant (F = 14.01 , df = 7.55 , p < 0.001), and there were no significant two-way interactions. There is strong evidence to reject the null hypothesis that fixation frequencies are the same for each each time interval throughout the exposure.
+
+Next, pairwise comparisons were used to compare fixation frequencies between specific intervals instead of just looking over all intervals:
+
+![Table 4.4](img/tab4-4.jpg)
+
+> Table 4.4.
+> > Average fixations frequencies are greatest during initial exposure and decrease over time. Changes are significantly large for the first three 30-second intervals and level off for the remainder of the exposure.
+
+The first and second intervals had a significant difference in means (|Δu| = 11.70 , s.e. = 0.97 , p < 0.001) as did the second and third intervals (|Δu| = 2.54 , s.e. = 0.81 , p = .002). After the third interval, the fixation frequencies level off and remain similar throughout the rest of the exposure. The first interval had the most average fixations (21.12), thus confirming H3a that fixation frequency will be highest during initial exposure. The second interval had an average of 9.43 fixations. Frequencies leveled off after the third interval. H3b is supported that fixation frequencies will decrease as the exposure time increases, though this does not follow a strictly linear trend. Later increases in fixation frequencies could be an indicator of boredom or disinterest. These implications will be explored in the next chapter.
+
+> **H4: The variability of scanpaths between participants will increase as the visual complexity increases.**
+
+Within the context of the current study, scanpaths are defined as sequences where the eye stops to fixate and then moves to another visual element (Brandt & Stark, 1997; Goldberg & Kotval, 1999). A generic sequence can be of arbitrary length, but Scanpath Theory (Josephson & Holmes, 2002) describes a first-order Markov process. This means the theoretical framework describes relationship between a visual element of fixation and the subsequent element of fixation. The GSEQ software computes the conditional probability of a visual element being the next object of fixation, conditioned on the existing eye location. The probabilities for scanpath sequences are provided in the next two tables. Probabilities have only been included for sequences that start with either a text or alternative story form (ASF) element. These two types of elements account for 87 percent of fixations for print participants and 63 percent of fixation for online participants.
+
+![Table 4.5](img/tab4-5.jpg)
+
+> Table 4.5.
+> > Probability for what type of visual element will be fixated upon next given the participant is currently looking at a text or ASF element. Reported for print prototypes separately and merged together.
+
+Scanpath sequences are invertible, so tables 4.5 and 4.6 can be interpreted either from rows to columns or columns to rows. The values in this study are not perfectly invertible so values may differ slightly. However, the omitted conditional probabilities are so small as to not be descriptively useful.
+
+![Table 4.6](img/tab4-6.jpg)
+
+> Table 4.6.
+> > Probability for what type of visual element will be fixated upon next given the participant is currently looking at a text or ASF element. Reported for online prototypes separately and merged together.
+
+A row containing all conditional probabilities equal to zero indicates that element did not exist for that particular prototype version. When the participant is fixated upon a text element, the most probable next fixated element was a headline (probability = 0.52 for print and 0.45 for online). Starting at text, the second-most probable next element was a photo (probability = 0.26 for print and 0.19 for online). Interestingly, navigation elements were almost as likely to be the second-most probable next element for online prototypes (probability = 0.15). When the participant is fixated upon an ASF, the most probable next fixated element also was a headline (probability = 0.38 for print and 0.41 for online). Starting at an ASF, the second-most probable next element becomes more varied. Online participants most likely next looked at a caption, other or advertisements. Print participants had similar probabilities of next looking at photos, text, captions or ASFs.
+
+Initially, it seems readers currently looking at text seem most likely to next look at headlines and photos. Participants looking at ASFs might go to any type of visual element. The clearest way to test the variability of scanpaths would be to merge prototype versions across media and compare versions one, two and three. However, inherent characteristics of the two media create an obvious confound for cross-media comparisons. Visually complex print prototypes, as defined in this study, still are constrained to a single-sided piece of broadsheet newsprint. Online prototypes can have more pages with fewer types of elements on a single page. This partitioning makes it difficult to provide an overall test of scanpaths because the choices available to the individual are not the same for all prototypes. Even within one medium, the different available elements created contingency tables of differing structure at each of k-levels of prototype within a medium. H4 cannot be statistically tested because of design confounds, but there appears to be initial support that the use of alternative story forms relate to more varied scanpaths. The discussion chapter will suggest how future research can eliminate these confounds.
+
+## Research questions
+
+There is a lot of information attached to the participants in this study such as demographics (age, education, sex), fixation frequencies, information recognition scores, and self-reported media usage information for radio, television, newspapers and Internet sources. Comparing across different education and media usage levels was kept out of the model building for hypothesis testing. No literature provided a coherent theoretical connection between these factors and scanpaths, but exploratory analyses could hint at interesting relationship to be incorporated in future research.
+
+SPSS generalized linear models were run to explore these relationships. All models assumed the form of Poisson logliner. Model terms were limited to main effects and two-way interactions because of no significant higher-order interactions. The defined dependent measure was set as the count of fixations occurring during the first 30 seconds of exposure to the prototype. The initial exposure is when vision and cognition work to detect, parse and prioritize information available within the visual field. Factors were set as medium, prototype, sex, and level of education. Age was used as a covariate. Prototype was an insignificant predictor and dropped from the model. Predictors were tested using likelihood ratio Chi-square instead of Pearson Chi-square in order to penalize fit for arbitrarily including more predictors and interactions. Overall model fit is estimated by a ratio of deviance to degrees of freedom (G<sup>2</sup> = 524.15 , df = 135 , ratio = 3.88). The smaller the ratio, the better the fit. This is an inadequate fit for theoretically derived models, based on Agresti's (1996) criteria that the ratio should be approximately 1 to indicate adequate fit. But this is not a surprise since this is an exploratory analysis. A saturated model was run including all possible multi-way interactions for fit comparison. The saturated model yielded a deviance fit ratio of 3.1, also above our rule-of-thumb threshold. The model with two-way interactions gives a more parsimonious model with similar fit to the saturated model.
+
+> **RQ1: Will medium or story structure be more important in determining how people read the news?**
+
+Prototype version was an insignificant predictor for the number of fixations in the first 30 seconds of prototype exposure. However medium explained a significant amount of variance for fixation count during the first 30 seconds of stimulus exposure (G<sup>2</sup> = 25.06 , df = 1 , p < 0.001). Participants exposed to online prototypes, regardless of version, fixated on more visual elements during the first 30 seconds than those exposed to print prototypes (B = 0.241 , s.e. = 0.152 , p = 0.113) though this difference did not achieve statistical significance of p < .05. This finding seems to fit Feature Integration Theory saying people create cognitive maps of visual stimuli to apply in future situations. This will be discussed in the next chapter.
+
+> **RQ2a: How does sex relate with reading patterns?**
+
+Overall, sex explained a significant amount of variance for fixation count (G<sup>2</sup> = 26.26, df = 1 , p < 0.001). Men fixated on a significantly higher number of visual elements than women (B = 0.463 , s.e. = 0.143 , p = 0.001). In fact, this was the strongest predictor in the model.
+
+> **RQ2b: How does education relate with reading patterns?**
+
+Overall, participant education explained a significant amount of variance for fixation count (G<sup>2</sup> = 28.2 , df = 6 , p < 0.001). Interestingly, one category generated significantly higher fixations counts when compared to the other categories: participants with a graduate degree (B = 0.685 , s.e. = 0.317 , p = 0.03). The overall trend was not linear, but the finding that those with the most education had the highest number of fixations is congruent with Feature Integration Theory.
+
+> **RQ2c: How does self-reported media usage relate with reading patterns?**
+
+Another generalized linear model was run with only self-reported media usage as independent variables and keeping number of fixations during the first 30 seconds as the sole dependent variable (G<sup>2</sup> = 576.99 , df = 130 , ratio = 4.44). Reliance on different media used a four-point ordinal measure ranging from 4=always to 1=never. The model was adjusted using backward elimination until all predictors were statistically significant (α = 0.95). The first run had eight news sources (radio, morning television, primetime television, local television, national television, daily newspaper, Internet, news magazines). The second run dropped radio and primetime television. The third and final run dropped daily newspapers (G<sup>2</sup> = 587.69 , df = 139 , ratio = 4.23). Although these indicators of self-reported media usage or reliance explained a significant amount of variance to remain in the model, comparing between levels does not provide much information. Individuals that reported they never rely on local television news had the most fixations, and those that reported they always relied on local television news had the fewest number of fixations. One possible explanation is that older participants have fewer fixations and rely more on local television news. An ordinal logistic regression model using age to predict local television reliance seems to confirm this (G<sup>2</sup> = 6.82 , df = 8 , ratio = 0.85) with participants in the oldest age category relying the most on local television news.
+
+---
+
+# Chapter 5
+# Discussion
+
+The results and models of the current study can be a basis for understanding and predicting how people will see, behave and think as newspapers change from print to digital. Mass media is fracturing into customized information streams where users take a prominent role in selecting and filtering news. Evolving news platforms such as Web, mobile, gaming, augmented reality and others to come necessitate researchers rethink how information is gathered, structured and designed for audience transmission and customization. Individuals utilize previous experiences with visual structures in order to efficiently prioritize news reading. They rely on visual cues and heuristics to lessen the cognitive effort of determining what information is available and instead allocate cognitive resources to processing and storing information. Readers first take inventory of what information is available and then systematically consume information. The amount and types of available visual structures drive eye-movement sequences as people read. Because previous experiences influence future behavior, news researchers will have to expand their analytical toolsets in order to understand the implications of shifting control from news creators to news consumers. This study is a step toward a scientific rethinking of how people use news.
+
+## Findings
+
+Scanpath Theory (Noton & Stark, 1971) posits that people take small snapshots of a visual stimulus during eye fixations. Saccadic movement between fixations brings a new area of a visual stimulus into primarily visual attention for cognition. The FIT (Treisman & Gelade, 1980) theory says that the small snapshots of a visual stimulus are woven together in the mind and stored as cognitive maps regarding the structure of the visual stimulus. These cognitive maps are used as heuristic devices when a person encounters a new visual stimulus.
+
+If prior experiences with visual stimuli are important in determining how a person scans and processes through vision, then an individual should not look or search in random patterns. Peripheral vision, though physiologically incapable of allowing cognition, does serve the function of detecting visual elements. This detection process, accompanied by the mental retrieval of spatial maps from previous visual exposure, should allow a more systematic approach to looking and reading. H1 confirms this notion that objects can be detected by peripheral vision and then essentially ignored or at least moved to a lower priority for visual scanning and cognition. If this were not true, then essentially every visual element would have an equal probability of being fixated upon. For example, if a person is reading words within a news article, the lack of a detection mechanism and prior experiences would suggest that the individual is just as likely to look away as to continue reading. This seems a silly notion. Obviously the person knows that one word is generally followed by other words, and these groupings of words form logical structures such as sentences. On a more macro level, individuals can use prior experiences of reading a newspaper to know that a headline should provide the most important concept of a story, and that a story should follow below the headline. Photographs should be accompanied by some piece of text that describes the content of the photo and provides information regarding the source of the photo. Therefore, the individual can peripherally detect this text and know it is a caption. The person may be uninterested or not ready to centrally process the information contained within that caption. So then a modified spatial map would be created and stored, incorporating previous newspaper experiences but being more specific to the newspaper in hand. The individual may later decide that the caption is important and should be read. No detection process is necessary. The mental representation of the visual field is retrieved, parsed and the area of interest is located. The eyes can directly move to this point. The practical implication of these processes is that news designs should favor visual structures that allow readers to quickly detect the type of information being conveyed through those structures. For example, geographic information should be conveyed through the visual structure of a map instead of plain text, which requires the reader to cognitively transform this information before storing to memory within a geospatial schema. H2 confirms the hypothesis that news designs that incorporate distinct visual elements for different types of information yield greater subsequent information recognition.
+
+The longer an individual is exposed to a visual stimulus, the more that person will rely on the cognitive map to select areas of interest instead of relying on a searching routine of fixations and saccades. H3 provides compelling information to confirm this. Participants looked, on average, at approximately 20 different visual elements within the first 30 seconds of exposure to a news prototype. This means readers first detect what information is available, prioritize this information and then systematically consume this information.
+
+![Figure 6.1](img/fig6-1.jpg)
+
+> Figure 6.1.
+> > The average number of fixations is greatest during the first 30 seconds of exposure to one of three print prototypes. Fixation frequency falls sharply and then holds steady throughout the rest of exposure.
+
+After the initial 30 seconds, the number of fixations was relatively stable for print but quite varied for online, Web-based prototypes.
+
+![Figure 6.2](img/fig6-2.jpg)
+
+> Figure 6.2.
+> > Fixation frequencies for online prototypes fall sharply after the first 30-second interval in a similar way to print prototypes. However, the frequency patterns are much more erratic for the remaining exposure.
+
+These differences in fixation-frequency patterns between print and online prototypes fit nicely inside the theoretical framework because the online prototypes contain changing visual fields whereas the print prototypes contain fixed visual fields. By definition, the print prototypes were constrained to a single side of broadsheet newsprint. The online prototypes, however, incorporate the hyperlinking mechanism that is the hallmark of the Web. Although the online prototypes contain the same information and similar visual structures as the print versions, the nature of the platform is very different. The print prototypes each contain a single visual field. The online versions purposefully separate information into different regions, often hid from view until the user clicks the mouse on a portion of the stimulus. This selective disclosure effectively creates multiple visual fields. Although the computer screen is fixed, the contents of the stimulus change based on user input. Hence, more detection and searching are necessary each time the prototype dynamically changes in order to create more accurate cognitive maps of the prototypes.
+
+The industry implication to limit the differences from page to page if the objective is for readers to process and store information. Information specifically requested by user behaviors, such as clicking a hyperlink, should be retrieved and displayed using appropriate visual structures based on information types. Other portions of the page should remain consistent during this content request, retrieval and refresh process. Limiting unrequested changes is important because changes to the visual field would increase the cognitive resources toward detection and decrease cognitive resources toward processing and storage. Changes in the visual field should be confined to the information of primary interest to the reader, as indicated through clicking or other human-computer interactions.
+
+So far, the data suggest participants use initial exposure of the stimulus to search the visual field and reconcile similarities and differences based on prior experience with similar stimuli. This is further supported by H4, which posits that scanpath variability will increase as the number of distinct visual elements increases. When reading text, participants were most likely to look at headlines or photos. This makes sense based on news-design traditions. Headlines are used to convey the overall point of an article. The text provides detailed information. Participants typically looked at headlines during the searching routine. After processing what main concepts were available in the prototype, the rest of the exposure was spent looking at text and supplemental content, such as photos and captions. However, the prototypes that utilized alternative story forms, or ASFs, provided the individuals with more options to see and process information. With a traditional text article, prior experience implies that reading should start at the beginning of the first paragraph and proceed in a linear fashion throughout the text. ASF structures break traditional narrative into smaller pieces. These pieces should allow for more efficient cognition when the partitioning is purposeful based on content types instead of just arbitrarily by word length or another size-based judgment. Geographically based information should be conveyed through a map illustration. Facts and figures can be more efficiently processed if they are separated from the main article and placed in visual structures that accentuate the numbers, dates or other specific types of information.
+
+In this study, the print and online prototypes that utilized many ASFs in lieu of any traditional narrative text yielded the best information recognition scores during the exit interview. Feature Integration Theory (Treisman & Gelade, 1980) states that previous experience with visual structures allows for quicker searching and of the visual field. It seems logical that the same underlying mechanisms would allow more efficient cognition of that visual field. When reading plain text, the mind must process all text in a linear fashion and parse different types of information, such as geography, time sequences, etc. FIT does not specifically refer to cognitive overload in processing, but it seems logical that there should be less cognitive load when an individual is processing related information by type of content instead of having to create these separations and associations on the fly. Perhaps the same neurological mechanisms that retrieve prior mental maps also utilize heuristics for available information to allow efficient processing of that information.
+
+Visual cues serve as triggers whereby the mind retrieves an appropriate schema used to store and conceptually link similar information based on the type of information. For example, peripheral vision could detect that a map exists on the page. This detection is based on prior exposure to maps and what visual attributes indicate that the element is in fact a map. Prior exposure also includes a learned understanding that maps contain information related to geography such as points, distances and paths. As the eyes realign through saccadic movement, the brain could begin preprocessing geographical information. Fixations patterns on the map would allow more efficient storage of the information and generate related mental associations within memory. Improved efficiency at processing and storing information would allow for more accurate recognition and recall of information in the future. This concept seems logically valid but certainly needs more research before allowing for a quantification of what types of visual structures are most efficient for information cognition and retrieval. But at least at this preliminary stage, it seems useful to conclude that utilizing different visual structures for specific types of information allows for more efficient cognition than utilizing arbitrary visual structures or incorporating all types of information into a single structure of linear, narrative text.
+
+The research questions were designed to compare demographic variables across media to determine whether these were significant factors influencing news-reading behaviors. First, it appears that visual structure is a more useful predictor of fixation counts than the medium of print or online. This seems logical but is misleading. Based on the theoretical framework, and supported by this study, there is no reason that reading on a screen should be inherently different than reading on a piece of paper if both use identical visual structures. Text and photos are detected and processed the same if both are presented on a flat, two-dimensional surface with the same set of allowed and expected behaviors by the user. This parity disappears when the behaviors used to seek information change. Print newspapers require two hands to hold, tilt, open and fold the newsprint. Online news sites require scrolling, clicking and other input. The obvious interactions of behavior and cognition require a lot of detailed research before we can predict how combinations of different visual elements, along with some set of allowed user behaviors, will succeed in having individuals use news sources, retain information, enjoy the experience and come back for more.
+
+Gender seems to play a significant role in eye-movement behaviors, with men looking at more visual elements than women during the initial 30-second exposure to the prototypes. Education and self-reported media usage appear to be somewhat useful in predicting fixation frequencies. More education correlates to more fixations during the initial exposure. Perhaps the education variable could be a manifestation of prior experience with different types of visual stimuli. Perhaps increasing education correlates with increasing exposure to a variety of visual fields with varied information structures. Highly educated people may have more life experience detecting visual elements. Hence, this prior experience would allow quick scanning and detection of visual elements without having to allocate time to process the elements with central foveal vision in order to understand what types of information are available in the visual field.
+
+## Summary of practical applications
+
+The current study has some limitations regarding generalizability to all news design, but there are some practical applications news designers and editors can take away.
+
+### Readers detect what is available and then choose
+
+Entry pages, such as the front page of print or home page of a news Web site, should include many story options. Readers should be able to scan a single visual field and achieve a sense of what information is contained within the publication.
+
+### Use consistent visual cues and layout
+
+Only change the visual field as requested by the user through some action such as clicking a headline to read a story. A portion of the visual field must change to render the information request by the user, but general layout and auxiliary visual structures should remain constant. Unnecessary changes increase cognitive resources toward detecting and away from learning. Unrequested changes should be used sparingly and specifically to draw reader attention to a specific element within the visual field.
+
+### Use appropriate story forms
+
+Use maps for geographically based data. Group similar types of data and use visual structures that accentuate these groupings and the nature of the data.
+
+### Leverage reader experiences
+
+Designers should base decision on the experiences and expectations of readers. Visual structures should have cues that make detection of information types simple. A map should look like a map. A button should look like a button. Help the reader know what type of information is contained within a visual element, and avoid design choices that make detection confusing.
+
+## Suggestions for future research
+
+There are three main limitations to discuss in hopes of improving quantification of news design by future research. First, how can we improve the experimental designs to better apply findings to natural news reading situations? Second, how can we compare across media and devices that have very different inherent types of allowed behaviors? Finally, how can we better sample and model reading behavior and cognition regardless of the device or type of information?
+
+### Experimental design
+
+Developing a comprehensive framework to measure and analyze news-consumer behaviors and cognition will require a variety of experimental designs. The current study used limited prototypes and restricted users from accessing media outside the scope of these prototypes. However many variables changed simultaneously, so the first phase of future research should scale back the prototypes and instead utilize stimuli starting with single elements. We need to have a better theoretical understanding of how people process individual elements before constructing stimuli that have high-order interactions and allow for more realistic reading patterns. Manipulated variables should include content types, relevance to the participant and dimensional aspects including size and time. Signal quality of audio, image and video elements cannot be ignored. And this means we need to explore how people retrieve information in their daily lives. Different devices need to be used including desktop computers, laptops, mobile devices and even console video game systems that allow for information retrieval and news reading. Experimental designs need explore how device characteristics dictate how readers interact with available information.
+
+### Inherent characteristics
+
+The current study dictated participants would be exposed to information through two media platforms -- broadsheet newsprint and a Web site browser application on a desktop computer. These two implementations may be broadly applicable, but a robust theory of information design in a news context must anticipate the user, task and environment. Different people have different expectations and patterns of information seeking. These different tasks are accomplished through actions that change with the environment. An individual may have a pattern of behavior used when retrieving information at home on a desktop computer that is different than on a mobile phone. Not only is the physical location different but also the device used to retrieve information is different. The user-centric media environment is dictated by the allowable input and feedback behaviors of the device. We cannot overlook how, where and when people retrieve news. News-design researchers should explore how human-computer interactions for different devices affect how people retrieve and process news.
+
+This study did not focus on the types of allowable behaviors between print and Web-based prototypes such as folding paper or clicking on hyperlinks. But there is no doubt that the nature of hypertext on the Web allows the user to be exposed to information in sequences impossible through a paper-based platform. The use of hypertext allows nonlinear progression through content, and this inherently allowed behavior has implications for both the content creators and consumers. McAdams and Berger (2001) suggest that allowed behaviors of a medium or platform should be taken into account during content creation. Another option is to take content created for a specific medium, like a broadsheet newspaper, and repurpose the content for other media. This "chunking" process has been conceptualized both as occurring as a result of the type of information (Nielsen, 2000) as well as an after-the-fact partitioning of content for a different media. However, the types of information and inherent behaviors of the media should determine story structures instead of arbitrary repurposing. In other words, use a round peg for a round hole instead of cramming a square peg. Designers should consider the expectations of users and characteristics of devices when deciding which story forms most efficiently convey specific types of information.
+
+Encountering new types of story forms and visual structures could lead to disorientation as to the proper way to follow or comprehend the information within a story. An individual looking at a text news story has an implicit understanding of the way in which the story should be read -- from top to bottom in a linear manner. Engebretsen (2001) refers to this as coherence, or the ability to understand how text and visual elements are connected through implicit and explicit cues. Because hypertext allows for nearly limitless paths through a text, or the combination of elements that comprises a story, McAdams and Berger (2000) argue that the writer or content producer should construct a hierarchy for a story to reduce confusion within the individual regarding where to go next. Engebretsen (2001) conceptually defines this as the "axial" type of linking structure because there is a root node and branches descending from those nodes. Links that are truly nonlinear and also allow navigation to other pages or content outside the scope of an individual story are conceptually defined as "network" links. As of now, most online news sites have favored axial linking to related stories or more detailed information within the same Web site. Bloggers have taken the opposite route and instead leaned heavily on using network links to other blogs, news companies or any and all available Web resources.
+
+The proliferation of professional bloggers provides compelling reason for news companies to incorporate network links. Users are relying on many sources, some for general news and others for niche information. Useful blogs generate loyal and repetitive readers because there is a value for the user to visit often. The blog posts might be the final destination, or they might just be the starting point for users to explore an interconnected information thread that connects between sites, within sites and through algorithm-generated content based on preferences and user activity. Further diffusion of mobile devices also complicates information production, delivery and finally retrieval by news consumers. How will touch-screen devices, motion-sensing accelerometers and gaze-contingent displays change how people will retrieve and interact with the news? Clearly there is a lot of work to be done. This increasingly complex kaleidoscope of content, users and devices makes a unified, parsimonious and useful theory of information design seem doubtful. A more likely result is an overall framework utilizing dynamic models, algorithms and then simple generalizations for specific combinations of information types and expected outcomes.
+
+### Measures of news reading
+
+The methods used to measure news reading and information cognition need to be diverse and dynamic, just like the experimental and prototype designs. Eye-tracking is a fantastic tool to measure gaze as an indicator of cognition. But the technique can be expensive, time-consuming and require complex analyses. Eye gaze has been validated as an indicator of cognition, but other cognitive measures can be utilized as well, such as reaction time, heart rate, EEG and fMRI. Self-report data can be useful for preference analyses such as those used in marketing and economics to quantify utility (such as conjoint and rank likelihood). The amalgamation of different measurement apparatuses, self-report data and observational data will necessitate more sophisticated statistical models. These models will be non-linear and must incorporate different types of data. This will probably require heavier use of simulation and adaptive models instead of relying on distributional assumptions used in classical techniques. Although complex models will be necessary for the overall framework, great care should be paid to provide parsimonious relationships for micro-level portions of the framework. An example could compare the efficiency or utility of using a larger photo for the front page of a broadsheet newspaper. This decision takes up valuable space but should have some quantifiable advantage. It is important that a framework would allow academics and practitioners to estimate metrics of success, which could include comprehension, affect, purchase intentions, call to action or other outcomes. Observed results should be incorporated to improve models for more accurate future predictions.
+
+## Final thoughts
+
+The results and models of the current study can be a basis for understanding and predicting how people will read and learn news across platforms. Readers use previous experiences and attributes of visual structures to quickly assess available information before systematically consuming news. This behavior, coupled with the fragmenting of news sources, requires news designers to change perspectives from that of mass media distributors to that of personalized media facilitators. Reporters and editors are no longer the gatekeepers of the emerging, personalized news stream. Researchers need to examine the effects of motivation on the behavior and cognition of readers. The physical location and devices with which readers access and interact with the news cannot be ignored. Because previous experiences influence future behavior, news researchers will have to expand their analytical toolsets to include dynamic, non-linear modeling that incorporates dependent and temporal data. This study provides a starting point for rethinking how people use news. Researchers and practitioners need to push forward the study of news design and platform differences. Journalists should be able to make quantitative decisions of how to optimally transfer information to users while minimizing the costs of generating the depth news necessary for individuals to make informed decisions within a democratic society.
+
+---
+
+# Appendix A
+# Selection Questionnaire
+
+See handouts right now. In process of OCR scanning.
+
+---
+
+# Appendix B
+# Prototypes
+
+The appendix contains images of the six prototypes used for the current study. The facts required for the information-recognition questionnaire are consistent across all the prototypes. Larger versions of the print prototypes are available at <http://eyetrack.poynter.org/keys_03.html> for download as PDF documents. Interactive versions of the online prototypes are available at <http://poynterextra.org/eyesential2/> in the exact representation used for the current study.
+
+A) ![Figure B-1 A](img/figb-1a.jpg)
+B) ![Figure B-1 B](img/figb-1b.jpg)
+
+> Figure B-1.
+> > Side-by-side of the "traditional narrative text" prototypes for A) print and B) online.
+
+A) ![Figure B-2 A](img/figb-2a.jpg)
+B) ![Figure B-2 B](img/figb-2b.jpg)
+
+> Figure B-2.
+> > Side-by-side of the "traditional text plus some alternative story forms" prototypes for A) print and B) online.
+
+A) ![Figure B-3 A](img/figb-3a.jpg)
+B) ![Figure B-3 B](img/figb-3b.jpg)
+
+> Figure B-3.
+> > Side-by-side of the "no traditional narrative text" prototypes for A) print and B) online.
+
+---
+
+# Appendix C
+# Exit Interview Questionnaire
+
+See handouts right now. In process of OCR scanning.
+
+---
+
+# List of References
+
+Adam, P. S., Quinn, S., & Edmonds, R. (2007). *Eyetracking the news: A study of print and online reading*. St. Petersburg, FL: The Poynter Institute.
+
+Agresti, A. (1996). *An introduction to categorical data analysis*. New York: Wiley.
+
+Anderson, C. A. and Bushman, B. J. (2002). The effects of media violence on society. *Science*, 295(5564): 2377-2379.
+
+ASL. (2007). Mobile eye: Lightweight tetherless eye tracking. Retrieved July 12, 2007, from <http://www.a-s-l.com/products/mobileeye.htm>
+
+Babbie, E. R. (2004). *The practice of social research* (10th ed.). Belmont, CA: Wadsworth Thomson Learning.
+
+Bakeman, R. & Brownlee, J. R. (1980). The strategic use of parallel play: A sequential analysis. *Child Development, 51*, 873-878.
+
+Bakeman, R. & Gottman, J. M. (1997). *Observing interaction: An introduction to sequential analysis* (2nd ed.). Cambridge: Cambridge University Press.
+
+Bakeman, R. & Quera, V. (1992). SDIS: A sequential data interchange standard. *Behavior Research Methods, Instruments & Computers, 24*(4), 554-559.
+
+Bakeman, R. & Quera, V. (1995). *Analyzing interaction: sequential analysis with SDIS & GSEQ*. Cambridge: Cambridge University Press.
+
+Bakeman, R. & Quera, V. (2008). GSEQ: Software for the Analysis of Interaction Sequences (Version 4.2) [Computer software].
+
+Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, 84(2): 191-215.
+
+Brandt, S. A., & Stark, L. W. (1997). Spontaneous eye movements during visual imagery reflect the content of the visual scene. *Journal of Cognitive Neuroscience, 9*(1), 27.
+
+Broadbent, D. E. (1958). *Perception and communication*. Oxford: Pergamon Press.
+
+Bucher, H.-J., & Schumacher, P. (2006). The relevance of attention for selecting news content: An eye-tracking study on attention patterns in the reception of print and online media. *Communications: The European Journal of Communication Research, 31*(3), 347-368.
+
+Burke, M., Hornof, A., Nilsen, E., & Gorman, N. (2005). High-cost banner blindness: Ads increase perceived workload, hinder visual search, and are forgotten. *ACM Transactions on Computer-Human Interaction, 12*(4), 423-445.
+
+Cooke, L. (2005). Eye tracking: how it works and how it relates to usability. *Technical Communication, 52*(4), 456-463.
+
+Chaffee, S. H. (1991). *Explication*. Newbury Park, CA: Sage.
+
+Deutsch, J. A. and Deutsch, D. (1963). Attention: Some theoretical considerations. *Psychological Review*, 70(1): 80-90.
+
+Dodge, K. A., Pettit, G. S. & Bates, J. E. (1994). Socialization mediators of the relation between socioeconomic status and child conduct problems. *Child Development*, 65(2): 649-665.
+
+Duchowski, A. T. (2003). *Eye tracking methodology: theory and practice*. New York: Springer.
+
+Durik, A. M., Vida, M. & Eccles, J. S. (2006). Task values and ability beliefs as predictors of high school literacy: A developmental analysis. *Journal of Educational Psychology*, 98(2): 382-393.
+
+Eastman, C. (2000). New directions in design cognition: Studies of representation and recall. In C. Eastman, M. McCracken & W. Newstetter (Eds.), *Cognition in Design Education*: Elsevier.
+
+Eccles, J. S., Adler, T. F., Futterman, R., Goff, S. B., Kaczala, C. M., Meece, J. & Midgley, C. (1983). Expectancies, values and academic behaviors. In J. T. Spence (Ed.), *Achievement and achievement motives* (pp. 75-146). San Francisco: Freeman.
+
+Ellis, S. R., & Smith, J. D. (1985). Patterns of statistical dependency in visual scanning. In R. Groner, G. W. McConkie & C. Menz (Eds.), *Eye movements and human information processing* (pp. 221-238). Amsterdam: Elsevier.
+
+Engebretsen, M. (2001). Hypernews and coherence. *Journal of Digital Information, 1*(7). Retrieved August 21, 2008, from <http://journals.tdl.org/jodi/article/view/jodi-26/27>
+
+Fiske, S. T. and Taylor, S. E. (1984). *Social cognition*. Reading, MA: Addison-Wesley.
+
+Garcia, M. R., & Stark, P. (1991). *Eyes on the news*. St. Petersburg, Fla.: Poynter Institute for Media Studies.
+
+Geiger, S. F. and Reeves, B. (1999). "The effect of visual structure and content emphasis on the evaluation and memory for political candidates" in *Television and Political Advertising* (Frank Biocca ed.). Hillsdale, NJ: Lawrence Erlbaum.
+
+Goldberg, J. H., & Kotval, X. P. (1999). Computer interface evaluation using eye movements: Methods and constructs. *International Journal of Industrial Ergonomics, 24*, 631-645.
+
+Gottman, J. M. (1980). The consistency of nonverbal affect and affect reciprocity in marital interaction. *Journal of Consulting and Clinical Psychology, 48*, 711-717.
+
+Gottman, J. M. (1983). How children become friends. *Monographs of the Society for Research in Child Development, 48*(3, Serial No. 201).
+
+Gottman, J. M. & Bakeman, R. (1979). The sequential analysis of observational data. In M. E. Lamb, S. J. Suomi, & G. R. Stephenson (Eds.), *Social interaction analysis: Methodological issues* (pp. 185-206). Madison: University of Wisconsin Press.
+
+Gottman, J. M. & Levenson, R. W. (1992). Marital processes predictive of later dissolution: Behavior, physiology, and health. *Journal of Personality and Social Psychology, 63*, 221-233.
+
+Gottman, J. M. & Roy, A. K. (1990). *Sequential analysis: A guide for behavioral researchers*. Cambridge: Cambridge University Press.
+
+Guthrie, J. T., Wigfield, A., Metsala, J. L. & Cox, K. E. (2000). Motivational and cognitive predictors of text comprehension and reading amount. *Scientific Studies of Reading*, 3(3): 231-256.
+
+Hair, J., Black, W., Babin, B., Anderson, R., & Tatham, R. (2006). *Multivariate data analysis* (6th ed.). Upper Saddle River, NJ: Pearson.
+
+Heimer, K. (1997). Socioeconomic status, subcultural definitions, and violent delinquency. *Social Forces*, 75(3): 799-833.
+
+Holsanova, J., Rahm, H., & Holmqvist, K. (2006). Entry points and reading paths on newspaper spreads: Comparing semiotic analysis with eye-tracking measurements. *Visual Communication, 5*(1), 65-93.
+
+Hoover-Dempsey, K. V. and Brissie, J. S. (1987). Parent involvement: Contributions of teacher efficacy school socioeconomic status, and other school characteristics. *American Educational Research Journal*, 24(3): 417-435.
+
+Huesmann, R. L., Moise-Titus, J., Podolski, C.-L., & Eron, L.D. (2003). Longitudinal relations between children's exposure to tv violence and their aggressive and violent behavior in young adulthood: 1977-1992. *Development Psychology*, 39(2): 201-221.
+
+James, W. (1981). *The principles of psychology* (Vol. 1). Cambridge, MA: Harvard University Press.
+
+Josephson, S. (2004). A summary of eye-movement methodologies. Retrieved July 16, 2007, from <http://factone.com/article_2.html>
+
+Josephson, S., & Holmes, M. E. (2002). Attention to repeated images on the World-Wide Web: Another look at scanpath theory. *Behavior Research Methods, Instruments, & Computers, 34*(4), 539.
+
+Juhasz, B. J., Rayner, K. (2003). Investigating the Effects of a Set of Intercorrelated Variables on Eye Fixation Durations in Reading. *Journal of Experimental Psychology / Learning, Memory & Cognition, 29*(6), 1312.
+
+Komogortsev, O., & Khan, J. (2006). *Perceptual attention focus prediction for multiple viewers in case of multimedia perceptual compression with feedback delay*. Paper presented at the ETRA, San Diego, CA.
+
+Kwak, N. (1999). Revisiting the knowledge gap hypothesis: Education, motivation, and media use. *Communication Research*, 26(4): 385-413.
+
+Lang, A. (2000). The limited capacity model of mediated message processing. *Journal of Communication*, 50: 46-70.
+
+Lewenstein, M., Edwards, G., Tatar, D., & DeVigal, A. (2000). Stanford-Poynter Project: EyeTracking online news. Retrieved October 20, 2007, from <http://www.poynterextra.org/et/i.htm>
+
+McAdams, M. & Berger, S. (2001). Hypertext. *Journal of Electronic Publishing, 6*(3). Retrieved August 21, 2008, from <http://hdl.handle.net/2027/spo.3336451.0006.301>
+
+McConkie, G. W., & Loschky, L. C. (2002). Perception onset time during fixations in free viewing. *Behavior Research Methods, Instruments & Computers, 34*(4), 481-490.
+
+Merritt, D. (2005). *Knightfall: Knight Ridder and how the erosion of newspaper journalism is putting democracy at risk*. New York, N.Y.: AMACOM--American Management Association.
+
+Miller, D. C. (1991). *Handbook of research design and social measurement* (5th ed.). Newbury Park, Calif.: Sage Publications.
+
+NAA. (2009). Total paid circulation. <http://www.naa.org/TrendsandNumbers/Total-Paid-Circulation.aspx>, last accessed May 2, 2009.
+
+Nielsen, J. (2000). *Designing web usability: The practice of simplicity*. Indianapolis, Indiana: New Riders.
+
+Nielsen, J. (2006). F-shaped pattern for reading Web content. *Jakob Nielsen's Alertbox*. Retrieved December 14, 2006, from <http://www.useit.com/alertbox/reading_pattern.html>
+
+Noton, D., & Stark, L. (1971). Scanpaths in Saccadic Eye Movements While Viewing and Recognizing Patterns. *Vision Research, 11*, 929-942.
+
+Outing, S., & Ruel, L. (2004). Eyetrack III: Online news consumer behavior in the age of multimedia. Retrieved October 20, 2007, from <http://poynterextra.org/eyetrack2004/>
+
+Pan, B., Hembrooke, H., Gay, G., Granka, L., Feusner, M., & Newman, J. (2004). *The determinants of Web page viewing behavior: An eye-tracking study*. Paper presented at the Eye Tracking Research & Applications Symposium, New York.
+
+Paik, H. and Comstock, G. (1994). The effects of television violence on antisocial behavior: A meta-analysis1. *Communication Research*, 21(4): 516-546.
+
+Paul, N., & Ruel, L. (2007). Early lessons from Poynter's Eyetrack07. Online Journalism Review. Retrieved November 28, 2007, from <http://www.ojr.org/ojr/stories/070414paul/>
+
+Petit, L., Orssaud, C., Tzourio, N., Mazoyer, B., & Berthoz, A. (1996). Do executed, imagined and suppressed saccadic eye movements share the same neuronal mechanisms in healthy human? In F. Lacquaniti & P. Viviani (Eds.), *Neural bases of motor behavior* (pp. 153-164). Dordrecht, Netherlands: Kluwer Academic Publishers.
+
+Pieters, R., Rosbergen, E., & Wedel, M. (1999). Visual attention to repeated print advertising: A test of scanpath theory. *Journal of Marketing Research, 36*, 424-438.
+
+Posner, M. I. (1969). "Abstraction and the process of recognition" in *The psychology of learning and motivation* (G. H. Bower & J. T. Spence eds.). New York: Academic Press.
+
+Potter, W. J. (2008). The importance of considering exposure sates when designing survey research studies. *Communication Methods and Measures*, 2(1-2): 152-166.
+
+Poynter Institute. (2007a). About Poynter. Retrieved November 29, 2007, from <http://www.poynter.org/column.asp?id=62>
+
+Poynter Institute. (2007b). EyeTrack07 study for print and online news. Retrieved October 20, 2007, from <http://eyetrack.poynter.org>
+
+Quinn, S. (2002). Knowledge management in the digital newsroom. Oxford, UK: Focal Press/Elsevier.
+
+Rayner, K. (1978). Eye movements in reading and information processing. *Psychological Bulletin, 85*(3), 618-660.
+
+Rayner, K., Sereno, S. C. & Raney, G. E. (1996). Eye movement control in reading: A comparison of two types of models. *Journal of Experimental Psychology / Human Perception & Performance, 22*(5), 1188.
+
+Reingold, E. M., & Loschky, L. C. (2002). Saliency of peripheral targets in gaze-contingent multiresolutional displays. *Behavior Research Methods, Instruments & Computers, 34*(4), 491-499.
+
+Rhee, J. W. & Cappella, J. N. (1997). The role of political sophistication in learning from the news; measuring schema development. *Communication Research*, 24(3): 197-233.
+
+Riffe, D., Lacy, S., & Fico, F. (2005). *Analyzing media messages : using quantitative content analysis in research* (2nd ed.). Mahwah, N.J.: Lawrence Erlbaum.
+
+Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology*, 104(3): 192-233.
+
+Salvucci, D. D. & Goldberg, J. H. (2000). *Identifying fixations and saccades in eye-tracking protocols*. Paper presented at the Eye Tracking Research & Applications Symposium, Palm Beach Gardens, FL.
+
+Scheaffer, R. L., Mendenhall, W., & Ott, R. L. (2006). *Elementary survey sampling* (6th ed.). Belmont, CA: Thomson.
+
+Shannon, C. E. and Weaver, W. (1949). *The mathematical theory of communication*. Urbana, IL: University of Illinois Press.
+
+Singer, J. B. (2003). Who are these guys?: The online challenge to the notion of journalistic professionalism. *Journalism*, 4(2): 139-163.
+
+Singer, J. B. (2005). The political j-blogger: 'normalizing' a new media form to fit old norms and practices. *Journalism*, 6(2): 173-198.
+
+Stark, L. W. (1994). Sequences of fixations and saccades in reading. In J. Ygge & G. Lennerstrand (Eds.), *Eye movements in reading* (pp. 135-161). Tarrytown, NY: Pergamon.
+
+Tao, C.-C., & Bucy, E. P. (2007). Conceptualizing media stimuli in experimental research: Psychological versus attribute-based definitions. *Human Communication Research, 33*(4), 397-426.
+
+Tewksbury, D., Hals, M. L., & Bibart, A. (2008). The efficacy of news browsing: The relationship of news consumption style to social and political efficacy. *Journalism & Mass Communication Quarterly*, 85(2): 257-272.
+
+Tichenor, P. J., Donohue, G. A. & Olien, C. N. (1970). Mass media flow and differential growth in knowledge. *Public Opinion Quarterly*, 34: 159-170.
+
+Treisman, A. M. (1964). Selective attention in man. *British Medical Bulletin*, 20(1): 12-16.
+
+Treisman, A., & Gelade, G. (1980). A feature integration theory of attention. *Cognitive Psychology, 12*, 97-136.
+
+Treisman, A., Sykes, M. & Gelade, G. (1977). "Selective attention and stimulus integration" in *Attention and performance* (S. Dornic ed.). Hillsdale, NJ: Lawrence Erlbaum.
+
+VideoLAN. (2008). VLC media player (Version 0.8.6) [Computer software].
+
+Viswanath, K., Kahn, E., Finnegan, J. R., Jr., Hertog, J. & Potter, J. D. (1993). Motivation and the "knowledge gap": Effects of a campaign to reduce diet-related cancer risk. *Communication Research*, 20: 546-563.
+
+Wei, William W. S. (2006). *Time series analysis: Univariate and multivariate methods* (2nd ed.). Boston: Pearson Education.
+
+Wetzel, P. A., Armstrong Laboratory (U.S.). Aircrew Training Research Division., & Hughes Training Inc. Training Operations. (1997). *An eye tracking system for analysis of pilots' scan paths*. Mesa, Ariz.: Human Resources Directorate Aircrew Training Research Division.
+
+White, D. M. (1950). 'The "Gate Keeper": A Case Study in the Selection of News', *Journalism Quarterly*, 27(3): 383-390.
+
+Wicks, R. H. and Drew, D. G. (1991). Learning from news: Effects of message consistency and medium on recall and inference making. *Journalism Quarterly*, 68(1/2), 155-164.
+
+Wiener, N. (1948). *Cybernetics : or, Control and communication in the animal and the machine*. New York: J. Wiley.
+
+Wigfield, A. and Guthrie, J. T. (1997). Relations of children's motivation for reading to the amount and breadth of their reading. *Journal of Educational Psychology*, 89(3), 420-432.
+
+Williams, T., Mulligan, C., Koprowicz, K., Miller, J., Reimann, C., & Wang, D.-S. (2005). Does isolating a visual element call attention to it? Results of an eye-tracking investigation of the effects of isolation on emphasis. *Technical Communication, 52*(1), 21-26.
+
+Wimmer, R. D., & Dominick, J. R. (2006). *Mass media research: an introduction* (8th ed.). Belmont, CA: Thomson Wadsworth.
+
+Wise, K., Bolls, P. & Schaefer, S. (2008). Choosing and reading online news: How available choice affect cognitive processing. *Journal of Broadcasting & Electronic Media*, 52(1), 69-85.
+
+Yarbus, A. L. (1967). *Eye movements and vision*. New York: Plenum Press.
+
+Zhu, Z., & Ji, Q. (2004). Eye and gaze tracking for interactive graphic display. *Machine Vision and Applications, 15*, 139-148.
+
+---
+
+# Biographical Sketch
+
+David Stanton researches the relationships between design, behavior and cognition. He received his undergraduate and graduate degrees from the College of Journalism and Communications at the University of Florida. His consulting work focuses on the development and performance of digital platforms. He has a wife, Autumn, and two daughters, Lucy and Tabitha.
+
+---
+
+Discriminating News-Reading Behavior and Cognition Using Eye-Tracking Methodologies
+
+David Stanton
+352-273-1098
+Department of Journalism, College of Journalism and Communications
+Supervisory chair: Johanna Cleary
+Ph.D., mass communication
+August 2009
+
+The current study provided describes how design decisions affect the way people read and process news. It provides evidence that specific story forms can be used to help readers better remember news information. News organizations can use the findings to make design decisions that fit into reading patterns across print and online news platforms.
+
 
