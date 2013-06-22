@@ -17,7 +17,7 @@
 
 ---
 
-To my wife Autumn and my daughters, Lucy and Tabitha, for the strength and support to persevere through late nights and endless edits
+To my wife Autumn and my daughters, Lucy and Tabitha, for the strength and support to persevere through late nights and endless edits.
 
 ---
 
