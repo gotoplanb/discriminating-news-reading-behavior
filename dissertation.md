@@ -29,7 +29,7 @@ I thank my committee for constructive criticism and motivation that helped me be
 
 # Table of Contents
 
-Should be omitted form Markdown and auto-generated afterward.
+Should be omitted from Markdown and auto-generated afterward.
 
 ---
 
