@@ -869,19 +869,16 @@ Zhu, Z., & Ji, Q. (2004). Eye and gaze tracking for interactive graphic display.
 
 # Biographical Sketch
 
-David Stanton researches the relationships between design, behavior and cognition. He received his undergraduate and graduate degrees from the College of Journalism and Communications at the University of Florida. His consulting work focuses on the development and performance of digital platforms. He has a wife, Autumn, and two daughters, Lucy and Tabitha.
+David Stanton researches the relationships between design, behavior and cognition. He received his undergraduate and graduate degrees from the College of Journalism and Communications at the University of Florida. He is a professinal interface designer and media-prototype developer. Dave has a wife, Autumn, and two daughters, Lucy and Tabitha.
 
 ---
 
 Discriminating News-Reading Behavior and Cognition Using Eye-Tracking Methodologies
 
 David Stanton
-352-273-1098
 Department of Journalism, College of Journalism and Communications
-Supervisory chair: Johanna Cleary
+Supervisory chair: John Wright
 Ph.D., mass communication
-August 2009
+August 2013
 
-The current study provided describes how design decisions affect the way people read and process news. It provides evidence that specific story forms can be used to help readers better remember news information. News organizations can use the findings to make design decisions that fit into reading patterns across print and online news platforms.
-
-
+The current study describes how design decisions affect the way people read and process news. It provides evidence that specific story forms can be used to help readers better remember news information. News organizations can use the findings to make design decisions that fit into reading patterns across print and digital news platforms.
