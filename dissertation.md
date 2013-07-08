@@ -420,7 +420,7 @@ Descriptive statistics were generated for participant demographics. Comparing ac
 > Figure 4-1.
 > > Participant demographics of the six prototypes are compared to an overall average including values from all prototypes. Values of 1.5 for "sex" and 3 for "age category" would indicate perfectly symmetrical assignment for each demographic category of interest. Similar values across prototypes indicate similar samples of participants were exposed to each prototype.
 
-Participant ages were coded in five ordinal categories, and sex was coded as two nominal variables. Similar frequencies in each category yield a median value of 3 for the age category and a 50 percent split for females and males. The proportions hold steady across prototypes. Therefore, participants assigned to each of the six prototype versions appear to be of similar compositions of sex and age.
+Participant ages were coded in five ordinal categories, and sex was coded as two nominal categories. Similar frequencies in each category yield a median value of 3 for the age category and a 50 percent split for females and males. The proportions hold steady across prototypes. Therefore, participants assigned to each of the six prototype versions appear to be of similar compositions of sex and age.
 
 ![Table 4.1](img/tab4-1.jpg)
 
