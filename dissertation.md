@@ -525,7 +525,7 @@ SPSS generalized linear models were run to explore these relationships. All mode
 
 > **RQ1: Will medium or story structure be more important in determining how people read the news?**
 
-Prototype version was an insignificant predictor for the number of fixations in the first 30 seconds of prototype exposure. However medium explained a significant amount of variance for fixation count during the first 30 seconds of stimulus exposure (G<sup>2</sup> = 25.06 , df = 1 , p < 0.001). Participants exposed to online prototypes, regardless of version, fixated on more visual elements during the first 30 seconds than those exposed to print prototypes (B = 0.241 , s.e. = 0.152 , p = 0.113) though this difference did not achieve statistical significance of p < .05. This finding seems to fit Feature Integration Theory saying people create cognitive maps of visual stimuli to apply in future situations. This will be discussed in the next chapter.
+Prototype version was an insignificant predictor for the number of fixations in the first 30 seconds of prototype exposure. However media explained a significant amount of variance for fixation count during the first 30 seconds of stimulus exposure (G<sup>2</sup> = 25.06 , df = 1 , p < 0.001). Participants exposed to online prototypes, regardless of version, fixated on more visual elements during the first 30 seconds than those exposed to print prototypes (B = 0.241 , s.e. = 0.152 , p = 0.113) though this difference did not achieve statistical significance of p < .05. This finding seems to fit Feature Integration Theory saying people create cognitive maps of visual stimuli to apply in future situations. This will be discussed in the next chapter.
 
 > **RQ2a: How does sex relate with reading patterns?**
 
