@@ -403,7 +403,7 @@ This study used the data of 155 people tracked during free reading of news proto
 # Chapter 4
 # Results
 
-Some components of the experimental design were outside the control of the researcher. The Poynter Institute recruited participants, created the prototypes and conducted the eye-tracking sessions. Therefore attention will first be paid to matters of validity. A proper analysis of coder agreement is necessary to allow other researchers to replicate and expand the results. After assessing validity and reliability, results will be reported for each research hypothesis. Finally, the exploratory research questions will be investigated.
+Attention first will be paid to matters of validity. Some components of the experimental design were outside the control of the researcher. The Poynter Institute recruited participants, created the prototypes and conducted the eye-tracking sessions. A proper analysis of coder agreement is necessary to allow other researchers to replicate and expand the results. After assessing validity and reliability, results will be reported for each research hypothesis. Finally, the exploratory research questions will be investigated.
 
 ## Validity
 
@@ -427,7 +427,7 @@ Participant ages were coded in five ordinal categories, and sex was coded as two
 > Table 4.1.
 > > Shows the number of participants for each prototype version and media.
 
-This is a defense that the various experimental treatments were administered to demographically equivalent participants. However, it must be noted that the lack of a probabilistic sampling design makes external generalizations beyond this study tenuous at best and not statistically defensible.
+This suggests that the various experimental treatments were administered to demographically equivalent participants. However, it must be noted that the lack of a probabilistic sampling design makes external generalizations beyond this study tenuous at best and not statistically defensible.
 
 ### Stimulus manipulation check
 
@@ -445,7 +445,7 @@ The option of using software to automatically code based on eye-fixation coordin
 
 ## Recoding unique elements into typologies
 
-Although every visually distinct element was assigned a unique code for the content analysis, recoding into typologies was necessary for most of the analyses necessary to answer the hypotheses and research questions. Without recoding, the smallest possible contingency table would be larger than 60 by 60. This would be the approximate size for the first print prototype. A table of this size would require close to 20,000 observations if all observations were evenly distributed among cells. Instead, unique codes were recoded into typologies such as headlines, photographs, article text and alternative story forms (such as maps). Some findings might raise a question regarding the relationships between a few unique visual elements. These relationships can later be explored if necessary.
+Although every visually distinct element was assigned a unique code for the content analysis, recoding into typologies was necessary for most of the analyses necessary to answer the hypotheses and research questions. Without recoding, the smallest possible contingency table would be larger than 60 by 60. This would be the approximate size for the first print prototype. A table of this size would require close to 20,000 observations if all observations were evenly distributed among cells. Instead, unique codes were recoded into typologies such as headlines, photographs, article text and alternative story forms (such as maps). Some findings might raise a question regarding the relationships between a few unique visual elements, such as the scanpath transitional probabilities of single graphic. These relationships can be explored in future research if necessary.
 
 ## Hypotheses
 
@@ -519,7 +519,7 @@ Initially, it seems readers currently looking at text seem most likely to next l
 
 ## Research questions
 
-There is a lot of information attached to the participants in this study such as demographics (age, education, sex), fixation frequencies, information recognition scores, and self-reported media usage information for radio, television, newspapers and Internet sources. Comparing across different education and media usage levels was kept out of the model building for hypothesis testing. No literature provided a coherent theoretical connection between these factors and scanpaths, but exploratory analyses could hint at interesting relationship to be incorporated in future research.
+There is a lot of information attached to the participants in this study such as demographics (age, education, sex), fixation frequencies, information recognition scores, and self-reported media usage information for radio, television, newspapers and Internet sources. Comparing across different education and media usage levels was kept out of the model building for hypothesis testing. No literature provided a coherent theoretical connection between these factors and scanpaths, but exploratory analyses could hint at interesting relationships to be incorporated in future research.
 
 SPSS generalized linear models were run to explore these relationships. All models assumed the form of Poisson log linear. Model terms were limited to main effects and two-way interactions because of no significant higher-order interactions. The defined dependent measure was set as the count of fixations occurring during the first 30 seconds of exposure to the prototype. The initial exposure is when vision and cognition work to detect, parse and prioritize information available within the visual field. Factors were set as media, prototype, sex, and level of education. Age was used as a covariate. Prototype was an insignificant predictor and dropped from the model. Predictors were tested using likelihood ratio Chi-square instead of Pearson Chi-square in order to penalize fit for arbitrarily including more predictors and interactions. Overall model fit is estimated by a ratio of deviance to degrees of freedom (G<sup>2</sup> = 524.15 , df = 135 , ratio = 3.88). The smaller the ratio, the better the fit. This is an inadequate fit for theoretically derived models, based on Agresti's (1996) criteria that the ratio should be approximately 1 to indicate adequate fit. But this is not a surprise since this is an exploratory analysis. A saturated model was run including all possible multi-way interactions for fit comparison. The saturated model yielded a deviance fit ratio of 3.1, also above our rule-of-thumb threshold. The model with two-way interactions gives a more parsimonious model with similar fit (ratio = 3.88) to the saturated model.
 
