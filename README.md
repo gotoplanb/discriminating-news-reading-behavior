@@ -2,7 +2,7 @@ My dissertation defended in July 2013.
 
 ## Want to read?
 
-[Full text in dissertation.md](https://github.com/gotoplanb/discriminating-news-reading-behavior/blob/master/dissertation.md)
+[Final PDF](https://github.com/gotoplanb/discriminating-news-reading-behavior/blob/master/done/dissertation-final.pdf)
 
 [Defense slides are a good summary](https://speakerdeck.com/gotoplanb/discriminating-news-reading-behavior-and-cognition-using-eye-tracking-methodologies)
 
